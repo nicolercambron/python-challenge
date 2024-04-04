@@ -1,7 +1,7 @@
 # python-challenge
 Module 3
 
-Source: ChatGPT -
+#Source: ChatGPT -
 (PyBank)
 for row in budget_csv_reader:
         # Check if the row has enough cells
@@ -16,7 +16,7 @@ for row in budget_csv_reader:
             # Update previous value for next iteration
             previous_value = value
 
-if previous_value is not None:
+#if previous_value is not None:
                 # Calculate change from previous value
                 change = value - previous_value
                 
@@ -31,5 +31,5 @@ if previous_value is not None:
             # Update previous value for next iteration
             previous_value = value
 
-(PyPoll)
-Pseudocode under "#Make list of candidates, votes, and percentage of vote" to give a skeleton of how to create code
+#(PyPoll)
+#Pseudocode under "#Make list of candidates, votes, and percentage of vote" to give a skeleton of how to create code
